@@ -23,7 +23,7 @@ function getRealWeather(cityName, callback) {
     // שימוש ב-Open-Meteo API - חינמי לחלוטין ללא רישום!
     const url = `https://api.open-meteo.com/v1/forecast?latitude=${coords.lat}&longitude=${coords.lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code&timezone=Asia%2FJerusalem&forecast_days=1`;
     
-    console.log(` מבקש נתונים אמיתיים עבור ${coords.name} מ-Open-Meteo...`);
+    console.log(` מבקש נתונים  עבור ${coords.name} מ-Open-Meteo...`);
     
     https.get(url, (apiRes) => {
         let data = '';
@@ -65,7 +65,7 @@ function getRealWeather(cityName, callback) {
                         humidity: current.relative_humidity_2m,
                         windSpeed: Math.round(current.wind_speed_10m),
                         time: new Date().toLocaleString('he-IL'),
-                        source: 'Open-Meteo (נתונים אמיתיים בזמן אמת!)',
+                        source: 'Open-Meteo (  מקור !)',
                         coordinates: `${coords.lat}, ${coords.lon}`,
                         isReal: true
                     });
