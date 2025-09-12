@@ -11,7 +11,7 @@ app.use(express.json());
 function getRealWeather(cityName, callback) {
     // מיפוי שמות ערים עבריות לקורדינטות
     const cityCoords = {
-        'תל-אביב': { lat: 32.0853, lon: 34.7818, name: 'תל אביב' },
+        'תל-אביב': { lat: 32.0853, lon: 34.7818, name: 'תל אביב יפו' },
         'ירושלים': { lat: 31.7683, lon: 35.2137, name: 'ירושלים' }, 
         'חיפה': { lat: 32.7940, lon: 34.9896, name: 'חיפה' },
         'באר-שבע': { lat: 31.2518, lon: 34.7915, name: 'באר שבע' },
