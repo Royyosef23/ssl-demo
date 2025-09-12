@@ -1,4 +1,4 @@
-# 🚀 SSL Demo - Modern Web Application
+# SSL Demo - Modern Web Application
 
 אפליקציית ווב מתקדמת הבנויה עם **Node.js**, **TypeScript** ו-**Express.js**. האפליקציה כוללת שרת RESTful API מלא, frontend מודרני, ותיעוד API אינטראקטיבי.
 
