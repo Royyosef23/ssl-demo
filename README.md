@@ -2,18 +2,18 @@
 
 אפליקציית ווב מתקדמת הבנויה עם **Node.js**, **TypeScript** ו-**Express.js**. האפליקציה כוללת שרת RESTful API מלא, frontend מודרני, ותיעוד API אינטראקטיבי.
 
-## ✨ תכונות עיקריות
+##  תכונות עיקריות
 
-- 🔧 **TypeScript** - פיתוח בטוח יותר עם type checking
-- ⚡ **Express.js** - שרת ווב מהיר ומינימליסטי
-- �️ **Security middleware** - Helmet, CORS ואמצעי אבטחה נוספים
-- 📊 **RESTful APIs** - APIs מובנים למזג אוויר ומידע מערכת
-- 🎨 **Modern Frontend** - HTML5, CSS3 ו-JavaScript ES6+
-- 📱 **Responsive Design** - מתאים לכל המכשירים
-- 🌍 **RTL Support** - תמיכה מלאה בעברית
-- � **API Documentation** - תיעוד אינטראקטיבי במובנה
+-  **TypeScript** - פיתוח בטוח יותר עם type checking
+-  **Express.js** - שרת ווב מהיר ומינימליסטי
+-  **Security middleware** - Helmet, CORS ואמצעי אבטחה נוספים
+-  **RESTful APIs** - APIs מובנים למזג אוויר ומידע מערכת
+- **Modern Frontend** - HTML5, CSS3 ו-JavaScript ES6+
+-  **Responsive Design** - מתאים לכל המכשירים
+-  **RTL Support** - תמיכה מלאה בעברית
+-  **API Documentation** - תיעוד אינטראקטיבי במובנה
 
-## 📁 מבנה הפרויקט
+##  מבנה הפרויקט
 
 ```
 ssl-demo/
@@ -160,17 +160,16 @@ FRONTEND_URL=http://localhost:3000
 
 ## 📱 תכונות Frontend
 
-- ✅ **Navigation מודרני** עם hamburger menu למובייל
-- ✅ **Weather widget** אינטראקטיבי
-- ✅ **API testing interface** מובנה
-- ✅ **Contact form** עם validation
-- ✅ **Real-time system info** display
-- ✅ **Responsive design** לכל המכשירים
-- ✅ **Smooth animations** ו-transitions
-- ✅ **Error handling** מקיף
-- ✅ **Loading states** ו-feedback למשתמש
-
-## 🌍 Deploy לפרודקשן
+- **Navigation מודרני** עם hamburger menu למובייל
+-  **Weather widget** אינטראקטיבי
+- **API testing interface** מובנה
+- **Contact form** עם validation
+- **Real-time system info** display
+-  **Responsive design** לכל המכשירים
+-  **Smooth animations** ו-transitions
+-  **Error handling** מקיף
+- **Loading states** ו-feedback למשתמש
+## Deploy לפרודקשן
 
 ### Heroku
 ```bash
@@ -200,7 +199,7 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-## 🔒 אבטחה
+##  אבטחה
 
 האפליקציה כוללת:
 - **Helmet.js** - הגנה מפני vulnerabilities נפוצים
@@ -209,15 +208,15 @@ CMD ["npm", "start"]
 - **Error handling** - מניעת חשיפת מידע רגיש
 - **Environment variables** - הסתרת keys רגישים
 
-## � רישיון
+##  רישיון
 
 MIT License - ראה קובץ LICENSE לפרטים
 
-## 👨‍💻 מפתח
+##  מפתח
 
 נוצר על ידי GitHub Copilot כדוגמה לאפליקציית ווב מודרנית ומקצועית.
 
-## 🤝 תרומה
+## תרומה
 
 PRs מתקבלים בברכה! אנא:
 1. Fork את הפרויקט
